@@ -7,6 +7,12 @@ dotnet build
 # Step 2: Run the project
 dotnet run
 
+# If you want to create exe file
+dotnet publish -c Release -r win-x64 --self-contained
+
+# if you want to run as script
+./script.ps1
+
 ## Overview
 
 This program checks and downloads emails from the Outlook inbox at regular intervals (every 30 minutes). It specifically looks for emails from `your_email` with subjects containing "Email" and saves up to two attachments from each matching email to the local `you directory` directory. The program logs all activities and errors into a `log.txt` file.

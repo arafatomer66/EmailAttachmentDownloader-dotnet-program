@@ -1805,3 +1805,195 @@
 6/13/2024 10:05:05 AM: Attachment saved to C:\Network\IMG_0652.jpg
 6/13/2024 10:05:05 AM: Finished processing emails.
 6/13/2024 10:05:05 AM: Waiting for the next run...
+2024-06-13 10:23:38: Starting to check emails...
+2024-06-13 10:23:38: Outlook application initialized and inbox folder accessed.
+2024-06-13 10:23:38: Synchronizing inbox...
+2024-06-13 10:23:49: Processing email with subject: arafatomer66 invited you to access applications within their organization and sender: invites@microsoft.com
+2024-06-13 10:23:49: Email does not match subject or sender.
+2024-06-13 10:23:49: Processing email with subject: Microsoft account password change and sender: account-security-noreply@accountprotection.microsoft.com
+2024-06-13 10:23:49: Email does not match subject or sender.
+2024-06-13 10:23:49: Processing email with subject: Harvey Weinstein's rape conviction overturned in New York; DA will attempt to retry and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:49: Email does not match subject or sender.
+2024-06-13 10:23:49: Processing email with subject: US Supreme Court weighs Idaho's strict abortion ban in medical emergencies and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:49: Email does not match subject or sender.
+2024-06-13 10:23:49: Processing email with subject: Trump faces potential contempt of court if judge determines he violated gag order and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:49: Email does not match subject or sender.
+2024-06-13 10:23:49: Processing email with subject: Trump trial live updates: Donald Trump, Juan Merchan enter courtroom in hush money case and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:49: Email does not match subject or sender.
+2024-06-13 10:23:49: Processing email with subject: Trump hush money trial updates: Alternate jurors expected to be picked today and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:49: Email does not match subject or sender.
+2024-06-13 10:23:49: Processing email with subject: Prosecutors seek to ask Trump about civil fraud, E. Jean Carroll cases and more if he testifies in… and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:49: Email does not match subject or sender.
+2024-06-13 10:23:49: Processing email with subject: Trump's ex-fixer Michael Cohen to be key witness in hush money criminal trial and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:49: Email does not match subject or sender.
+2024-06-13 10:23:49: Processing email with subject: Trump's first day of hush money trial ends with no jurors as he rails against having to attend… and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:49: Email does not match subject or sender.
+2024-06-13 10:23:49: Processing email with subject: Trump trial live updates: Court may start with hearing on Trump testifying and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:49: Email does not match subject or sender.
+2024-06-13 10:23:49: Processing email with subject: US tries to avert Iranian retaliatory attack on Israel amid threat of wider conflict and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:49: Email does not match subject or sender.
+2024-06-13 10:23:49: Processing email with subject: Japanese Prime Minister Fumio Kishida to address Congress in joint meeting and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:49: Email does not match subject or sender.
+2024-06-13 10:23:49: Processing email with subject: Inflation surged higher in March, reversing some progress made in cooling prices and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:49: Email does not match subject or sender.
+2024-06-13 10:23:49: Processing email with subject: PHOTOS: UConn takes on Purdue in national title game and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:49: Email does not match subject or sender.
+2024-06-13 10:23:49: Processing email with subject: Trump says abortion should be left to states, declines to endorse national limit and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:49: Email does not match subject or sender.
+2024-06-13 10:23:49: Processing email with subject: U.S. Economy Added 303,000 Jobs in March and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:49: Email does not match subject or sender.
+2024-06-13 10:23:49: Processing email with subject: U.S. approved more bombs to Israel on day of World Central Kitchen strikes and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:49: Email does not match subject or sender.
+2024-06-13 10:23:49: Processing email with subject: Taiwan's Strongest Earthquake in 25 Years Kills at Least Nine and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:49: Email does not match subject or sender.
+2024-06-13 10:23:49: Processing email with subject: World Central Kitchen pauses Gaza aid, saying 7 members killed during IDF attack and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:49: Email does not match subject or sender.
+2024-06-13 10:23:49: Processing email with subject: Crews scramble to build temporary channel for 'essential' ships at Baltimore port and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:49: Email does not match subject or sender.
+2024-06-13 10:23:49: Processing email with subject: Here's how crews will remove up to 4,000 tons of debris to help find victims of the Baltimore… and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:49: Email does not match subject or sender.
+2024-06-13 10:23:50: Processing email with subject: Democrat Announces She's Leaving Congress and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:50: Email does not match subject or sender.
+2024-06-13 10:23:50: Processing email with subject: Fox News host slammed for linking Baltimore Key bridge disaster to immigration: 'Reprehensible… and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:50: Email does not match subject or sender.
+2024-06-13 10:23:50: Processing email with subject: Kamala Harris roasted after she claps along to protest song – before realising they're protesting… and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:50: Email does not match subject or sender.
+2024-06-13 10:23:50: Processing email with subject: Boeing CEO Dave Calhoun to step down and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:50: Email does not match subject or sender.
+2024-06-13 10:23:50: Processing email with subject: Russia, China veto US resolution calling for immediate cease-fire in Gaza and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:50: Email does not match subject or sender.
+2024-06-13 10:23:50: Processing email with subject: US takes on Apple in antitrust lawsuit and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:50: Email does not match subject or sender.
+2024-06-13 10:23:50: Processing email with subject: Appeals court to hear oral arguments over controversial Texas immigration law and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:50: Email does not match subject or sender.
+2024-06-13 10:23:50: Processing email with subject: Congress announces a deal to avoid a shutdown, resolving homeland security dispute and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:50: Email does not match subject or sender.
+2024-06-13 10:23:50: Processing email with subject: Putin tightens grip on Russia in election though thousands join noon protest and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:50: Email does not match subject or sender.
+2024-06-13 10:23:50: Processing email with subject: Judge dismisses some charges against Trump in the Georgia 2020 election interference case and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:50: Email does not match subject or sender.
+2024-06-13 10:23:50: Processing email with subject: 4 key questions ahead of Robert Hur's testimony on Biden's mishandling of classified documents and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:50: Email does not match subject or sender.
+2024-06-13 10:23:50: Processing email with subject: Biden to begin laying out second-term vision in State of the Union and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:50: Email does not match subject or sender.
+2024-06-13 10:23:50: Processing email with subject: Mourners gather in Moscow for Alexei Navalny's funeral despite arrest fears and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:50: Email does not match subject or sender.
+2024-06-13 10:23:50: Processing email with subject: Live updates: Biden, Trump making dueling visits to U.S.-Mexico border and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:50: Email does not match subject or sender.
+2024-06-13 10:23:50: Processing email with subject: Biden wins Michigan primary but sheds support over Gaza and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:50: Email does not match subject or sender.
+2024-06-13 10:23:50: Processing email with subject: Israel-Gaza live updates: Netanyahu 'surprised' by Biden's remarks, source says and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:50: Email does not match subject or sender.
+2024-06-13 10:23:50: Processing email with subject: Trump appeals $364 million decision in N.Y. civil fraud case and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:51: Email does not match subject or sender.
+2024-06-13 10:23:51: Processing email with subject: AT&T outage impacting US customers, company says and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:51: Email does not match subject or sender.
+2024-06-13 10:23:51: Processing email with subject: Biden administration cancels student loans of more than 150,000 borrowers under new plan and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:51: Email does not match subject or sender.
+2024-06-13 10:23:51: Processing email with subject: Kremlin rejects call for independent postmortem on opposition leader Alexei Navalny and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:51: Email does not match subject or sender.
+2024-06-13 10:23:51: Processing email with subject: Navalny's widow vows to continue husband's opposition to Putin and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:51: Email does not match subject or sender.
+2024-06-13 10:23:51: Processing email with subject: Russian opposition leader Alexei Navalny dies in prison and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:51: Email does not match subject or sender.
+2024-06-13 10:23:51: Processing email with subject: Donald Trump attends Stormy Daniels hush-money court hearing in New York and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:51: Email does not match subject or sender.
+2024-06-13 10:23:51: Processing email with subject: Democrats seize back disgraced George Santos's congressional seat: live and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:51: Email does not match subject or sender.
+2024-06-13 10:23:51: Processing email with subject: Senate passes aid bill for Israel, Taiwan, Ukraine and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:51: Email does not match subject or sender.
+2024-06-13 10:23:51: Processing email with subject: Super Bowl 2024 recap: Chiefs top 49ers in OT to repeat as champions. See the highlights and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:51: Email does not match subject or sender.
+2024-06-13 10:23:51: Processing email with subject: DOJ report digs into Biden's mishandling classified documents, 'poor memory': 5 takeaways and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:51: Email does not match subject or sender.
+2024-06-13 10:23:51: Processing email with subject: 5 Marines aboard helicopter that crashed outside San Diego confirmed dead and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:51: Email does not match subject or sender.
+2024-06-13 10:23:51: Processing email with subject: Nevada primary takeaways: 'None' beats Haley. Trump wasn't on GOP ballot. Biden wins Dems and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:51: Email does not match subject or sender.
+2024-06-13 10:23:51: Processing email with subject: Jury finds Jennifer Crumbley guilty of four counts of involuntary manslaughter and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:51: Email does not match subject or sender.
+2024-06-13 10:23:51: Processing email with subject: California storm live updates: Life-threatening flooding pummels Southern California and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:51: Email does not match subject or sender.
+2024-06-13 10:23:51: Processing email with subject: Economy added booming 353K jobs in January, unemployment held at 3.7%. and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:51: Email does not match subject or sender.
+2024-06-13 10:23:51: Processing email with subject: With US aid for Ukraine stalled, EU unlocks $55 billion in 'predictable funding' and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:51: Email does not match subject or sender.
+2024-06-13 10:23:51: Processing email with subject: Republican US House panel pushes forward on impeaching border chief Mayorkas and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:51: Email does not match subject or sender.
+2024-06-13 10:23:51: Processing email with subject: 3 US soldiers killed in Jordan drone strike identified: 'It takes your heart and your soul' and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:51: Email does not match subject or sender.
+2024-06-13 10:23:51: Processing email with subject: Iran denies involvement in deadly attack on US base, ministry says and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:51: Email does not match subject or sender.
+2024-06-13 10:23:51: Processing email with subject: Top U.N. court orders Israel to prevent genocide in Gaza, but not to cease fire and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:51: Email does not match subject or sender.
+2024-06-13 10:23:51: Processing email with subject: Americans dismayed by Biden Trump 2024 rematch, Reuters/Ipsos poll finds and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:52: Email does not match subject or sender.
+2024-06-13 10:23:52: Processing email with subject: Trump fends off Haley with double-digit win and other takeaways from New Hampshire and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:52: Email does not match subject or sender.
+2024-06-13 10:23:52: Processing email with subject: The 2024 Oscar nominations were announced: Here's a look at who made the list and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:52: Email does not match subject or sender.
+2024-06-13 10:23:52: Processing email with subject: Fake Joe Biden robocall tells New Hampshire Democrats not to vote on Tuesday and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:52: Email does not match subject or sender.
+2024-06-13 10:23:52: Processing email with subject: New charges against Alec Baldwin in fatal "Rust" shooting and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:52: Email does not match subject or sender.
+2024-06-13 10:23:52: Processing email with subject: Pakistan retaliates with airstrikes inside Iran and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:52: Email does not match subject or sender.
+2024-06-13 10:23:52: Processing email with subject: Election 2024 latest news: Anti-Trump Republicans seek to stall his momentum in N.H. and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:52: Email does not match subject or sender.
+2024-06-13 10:23:52: Processing email with subject: Analysis-Ron DeSantis bet the farm on Iowa. He just lost it and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:52: Email does not match subject or sender.
+2024-06-13 10:23:52: Processing email with subject: Live updates: Trump, Haley, DeSantis vie for strong showings in Iowa caucuses and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:52: Email does not match subject or sender.
+2024-06-13 10:23:52: Processing email with subject: US and UK carry out strikes against Iran-backed Houthis in Yemen and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:52: Email does not match subject or sender.
+2024-06-13 10:23:52: Processing email with subject: Judge in Trump's civil fraud trial faces bomb threat ahead of closing arguments and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:52: Email does not match subject or sender.
+2024-06-13 10:23:52: Processing email with subject: Over half a million on US East Coast lose power due to winter storm and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:52: Email does not match subject or sender.
+2024-06-13 10:23:52: Processing email with subject: United, Alaska Airlines find loose hardware on some 737 Max 9 door plugs and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:52: Email does not match subject or sender.
+2024-06-13 10:23:52: Processing email with subject: Hezbollah Commander Killed by Israeli Airstrike in Southern Lebanon and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:52: Email does not match subject or sender.
+2024-06-13 10:23:52: Processing email with subject: US added 216,000 jobs in December, blowing past expectations and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:52: Email does not match subject or sender.
+2024-06-13 10:23:52: Processing email with subject: In the Supreme Court's hands: How will the justices rule on Trump's ballot appeal? and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:52: Email does not match subject or sender.
+2024-06-13 10:23:52: Processing email with subject: Deadly explosions kill more than 100 at event honoring Iranian general killed by US and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:52: Email does not match subject or sender.
+2024-06-13 10:23:52: Processing email with subject: Japan Airlines plane bursts into flames with 379 people on board and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:52: Email does not match subject or sender.
+2024-06-13 10:23:52: Processing email with subject: Massive earthquake hits western Japan, triggering tsunami warnings and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:52: Email does not match subject or sender.
+2024-06-13 10:23:52: Processing email with subject: Ukraine's hopes for victory fade in the face of waning Western support and Putin's relentless war… and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:52: Email does not match subject or sender.
+2024-06-13 10:23:52: Processing email with subject: US officials describe 'productive' meeting with Mexico as Biden feels pressure over migrant crisis and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:52: Email does not match subject or sender.
+2024-06-13 10:23:52: Processing email with subject: Michigan Supreme Court rejects case to remove Trump from 2024 ballot and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:52: Email does not match subject or sender.
+2024-06-13 10:23:52: Processing email with subject: Joe Biden directs airstrikes against Iranian-backed groups after three US troops wounded in attack and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:53: Email does not match subject or sender.
+2024-06-13 10:23:53: Processing email with subject: Israel-Gaza live updates: At least 68 killed in airstrike on refugee camp and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:53: Email does not match subject or sender.
+2024-06-13 10:23:53: Processing email with subject: US annual inflation slows further below 3% in November and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:53: Email does not match subject or sender.
+2024-06-13 10:23:53: Processing email with subject: Innocent until proven guilty? Voters split on Donald Trump being disqualified from Colorado ballot and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:53: Email does not match subject or sender.
+2024-06-13 10:23:53: Processing email with subject: What does Trump's disqualification ruling in Colorado mean? and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:53: Email does not match subject or sender.
+2024-06-13 10:23:53: Processing email with subject: Iceland volcano eruption in 'state of equilibrium' as scientists assess activity and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:53: Email does not match subject or sender.
+2024-06-13 10:23:53: Processing email with subject: Trump, again, praises dictators and rails at immigrants -- again sparking backlash and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:53: Email does not match subject or sender.
+2024-06-13 10:23:53: Processing email with subject: Prince Harry Was Hacked by UK Tabloid Newspapers, Judge Says and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:53: Email does not match subject or sender.
+2024-06-13 10:23:53: Processing email with subject: Supreme Court will hear a case that could undo Capitol riot charge against hundreds, including Trump and sender: microsoft.start@email2.microsoft.com
+2024-06-13 10:23:53: Email does not match subject or sender.
+2024-06-13 10:23:53: Processing email with subject: Xbox ??????????? ???????? ??? ???????? ?????? and sender: Xbox@engage.xbox.com
+2024-06-13 10:23:53: Email does not match subject or sender.
+2024-06-13 10:23:53: Processing email with subject: Updates to our terms of use and sender: msa@communication.microsoft.com
+2024-06-13 10:23:53: Email does not match subject or sender.
+2024-06-13 10:23:53: Processing email with subject: Email and sender: arafatomer66@gmail.com
+2024-06-13 10:23:53: Email has 1 attachments.
+2024-06-13 10:23:53: Attachment saved to C:\Network\IMG_0652.jpg
+2024-06-13 10:23:53: Finished processing emails.
+2024-06-13 10:23:53: Waiting for the next run...

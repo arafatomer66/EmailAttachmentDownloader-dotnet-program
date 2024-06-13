@@ -162,7 +162,7 @@
         }
       }
     },
-    ".NETFramework,Version=v4.8/win7-x86": {
+    ".NETFramework,Version=v4.8/win-x64": {
       "Microsoft.Exchange.WebServices/2.2.0": {
         "type": "package",
         "compile": {
@@ -624,7 +624,7 @@
       }
     },
     "runtimes": {
-      "win7-x86": {
+      "win-x64": {
         "#import": []
       }
     }

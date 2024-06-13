@@ -1,0 +1,13 @@
+C:\Users\User\Desktop\EmailAttachmentDownloader\bin\Release\net48\win-x64\publish\EmailAttachmentDownloader.exe
+C:\Users\User\Desktop\EmailAttachmentDownloader\bin\Release\net48\win-x64\publish\EmailAttachmentDownloader.exe.config
+C:\Users\User\Desktop\EmailAttachmentDownloader\bin\Release\net48\win-x64\publish\EmailAttachmentDownloader.pdb
+C:\Users\User\Desktop\EmailAttachmentDownloader\bin\Release\net48\win-x64\publish\Microsoft.Exchange.WebServices.Auth.dll
+C:\Users\User\Desktop\EmailAttachmentDownloader\bin\Release\net48\win-x64\publish\Microsoft.Exchange.WebServices.dll
+C:\Users\User\Desktop\EmailAttachmentDownloader\bin\Release\net48\win-x64\publish\Microsoft.Identity.Client.dll
+C:\Users\User\Desktop\EmailAttachmentDownloader\bin\Release\net48\win-x64\publish\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\User\Desktop\EmailAttachmentDownloader\bin\Release\net48\win-x64\publish\Microsoft.Office.Interop.Outlook.dll
+C:\Users\User\Desktop\EmailAttachmentDownloader\bin\Release\net48\win-x64\publish\System.Buffers.dll
+C:\Users\User\Desktop\EmailAttachmentDownloader\bin\Release\net48\win-x64\publish\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\EmailAttachmentDownloader\bin\Release\net48\win-x64\publish\System.Memory.dll
+C:\Users\User\Desktop\EmailAttachmentDownloader\bin\Release\net48\win-x64\publish\System.Numerics.Vectors.dll
+C:\Users\User\Desktop\EmailAttachmentDownloader\bin\Release\net48\win-x64\publish\System.Runtime.CompilerServices.Unsafe.dll
