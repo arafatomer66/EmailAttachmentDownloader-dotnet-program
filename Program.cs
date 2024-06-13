@@ -14,7 +14,7 @@ class Program
             try
             {
                 Log("Starting to check emails...");
-                ReadEmailsAndDownloadAttachments();
+                await CheckAndDownloadEmails();
             }
             catch (System.Exception ex)
             {
@@ -26,16 +26,24 @@ class Program
         }
     }
 
-    static void ReadEmailsAndDownloadAttachments()
+    static async Task CheckAndDownloadEmails()
     {
         try
         {
             Application outlookApp = new Application();
             NameSpace outlookNamespace = outlookApp.GetNamespace("MAPI");
             MAPIFolder inbox = outlookNamespace.GetDefaultFolder(OlDefaultFolders.olFolderInbox);
-            Items mailItems = inbox.Items;
 
             Log("Outlook application initialized and inbox folder accessed.");
+
+            // Synchronize Inbox to get the latest emails
+            Log("Synchronizing inbox...");
+            outlookNamespace.SendAndReceive(false);
+
+            // Wait a few seconds to allow synchronization to complete
+            await Task.Delay(TimeSpan.FromSeconds(10));
+
+            Items mailItems = inbox.Items;
 
             foreach (object item in mailItems)
             {
@@ -43,7 +51,7 @@ class Program
                 {
                     Log($"Processing email with subject: {mailItem.Subject} and sender: {mailItem.SenderEmailAddress}");
 
-                    if (mailItem.Subject.Contains("email") && mailItem.SenderEmailAddress == "arafatomer66@gmail.com")
+                    if (mailItem.Subject.Contains("Email") && mailItem.SenderEmailAddress == "arafatomer66@gmail.com")
                     {
                         Log($"Matched email with subject: {mailItem.Subject}");
 
@@ -54,7 +62,7 @@ class Program
                             for (int i = 1; i <= mailItem.Attachments.Count; i++)
                             {
                                 Attachment attachment = mailItem.Attachments[i];
-                                string filePath = Path.Combine(@"\\YourNetworkPath", attachment.FileName);
+                                string filePath = Path.Combine(@"C:\Network", attachment.FileName);
                                 attachment.SaveAsFile(filePath);
                                 Log($"Attachment saved to {filePath}");
 
@@ -85,7 +93,7 @@ class Program
         }
         catch (System.Exception ex)
         {
-            Log($"An error occurred while reading emails: {ex.Message}");
+            Log($"An error occurred while reading emails or saving attachment: {ex.Message}");
         }
     }
 
