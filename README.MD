@@ -56,7 +56,7 @@ This program checks and downloads emails from the Outlook inbox at regular inter
 ### CheckAndDownloadEmails Method
 - Initializes Outlook application and accesses the inbox folder.
 - Synchronizes the inbox to get the latest emails.
-- Iterates through all emails, checking for specific criteria (subject contains "Email" and sender is `arafatomer66@gmail.com`).
+- Iterates through all emails, checking for specific criteria (subject contains "your subjet" and sender is `your email`).
 - Saves up to two attachments from matching emails to the `your directory` directory.your_email
 
 ### Log Method
