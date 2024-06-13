@@ -1,83 +1,101 @@
 ﻿using System;
 using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.Exchange.WebServices.Data;
-using Microsoft.Identity.Client;
+using Microsoft.Office.Interop.Outlook;
 
 class Program
 {
-    private static ExchangeService service;
-
-    static async System.Threading.Tasks.Task Main(string[] args)
+    static async Task Main(string[] args)
     {
-        var tenantId = "256d654d-057a-4595-aaed-df8302671760"; // Your Tenant ID
-        var clientId = "ef533d70-d994-47f6-a9ef-10129ea0f198"; // Your Client ID
-        var clientSecret = "VB08Q~Z_ekTe9-Ha1tP1mcLtwrS_mZQQaRBy_ddf"; // Your Client Secret (Value)
-
-        var app = ConfidentialClientApplicationBuilder.Create(clientId)
-            .WithClientSecret(clientSecret)
-            .WithAuthority(new Uri($"https://login.microsoftonline.com/{tenantId}"))
-            .Build();
-
-        string[] scopes = { "https://outlook.office365.com/.default" };
-
-        AuthenticationResult result = null;
-        try
-        {
-            result = await app.AcquireTokenForClient(scopes)
-                .ExecuteAsync();
-        }
-        catch (MsalException ex)
-        {
-            Console.WriteLine($"Error acquiring access token: {ex.Message}");
-            return;
-        }
-
-        service = new ExchangeService(ExchangeVersion.Exchange2013)
-        {
-            Url = new Uri("https://outlook.office365.com/EWS/Exchange.asmx")
-        };
-        service.Credentials = new OAuthCredentials(result.AccessToken);
+        Log("Application started.");
 
         while (true)
         {
-            await ReadEmailsAndDownloadAttachments();
-            await System.Threading.Tasks.Task.Delay(TimeSpan.FromMinutes(1));
+            try
+            {
+                Log("Starting to check emails...");
+                ReadEmailsAndDownloadAttachments();
+            }
+            catch (System.Exception ex)
+            {
+                Log($"An error occurred: {ex.Message}");
+            }
+
+            Log("Waiting for the next run...");
+            await Task.Delay(TimeSpan.FromMinutes(30)); // Wait for 30 minutes before the next run
         }
     }
 
-    private static async System.Threading.Tasks.Task ReadEmailsAndDownloadAttachments()
+    static void ReadEmailsAndDownloadAttachments()
     {
-        var inbox = Folder.Bind(service, WellKnownFolderName.Inbox);
-        var view = new ItemView(10)
+        try
         {
-            PropertySet = new PropertySet(BasePropertySet.IdOnly, ItemSchema.Subject, ItemSchema.DateTimeReceived)
-        };
+            Application outlookApp = new Application();
+            NameSpace outlookNamespace = outlookApp.GetNamespace("MAPI");
+            MAPIFolder inbox = outlookNamespace.GetDefaultFolder(OlDefaultFolders.olFolderInbox);
+            Items mailItems = inbox.Items;
 
-        SearchFilter searchFilter = new SearchFilter.SearchFilterCollection(LogicalOperator.And, new SearchFilter[]
-        {
-            new SearchFilter.ContainsSubstring(ItemSchema.Subject, "Start Daily"),
-            new SearchFilter.ContainsSubstring(EmailMessageSchema.From, "microsoft.start@email2.microsoft.com")
-        });
+            Log("Outlook application initialized and inbox folder accessed.");
 
-        var findResults = service.FindItems(inbox.Id, searchFilter, view);
-
-        foreach (var item in findResults.OfType<EmailMessage>())
-        {
-            item.Load();
-            if (item.HasAttachments)
+            foreach (object item in mailItems)
             {
-                int attachmentCount = 0;
-                foreach (var attachment in item.Attachments.OfType<FileAttachment>())
+                if (item is MailItem mailItem)
                 {
-                    if (attachmentCount >= 2) break;
-                    attachment.Load();
-                    var filePath = Path.Combine(@"\\YourNetworkPath", attachment.Name);
-                    File.WriteAllBytes(filePath, attachment.Content);
-                    attachmentCount++;
+                    Log($"Processing email with subject: {mailItem.Subject} and sender: {mailItem.SenderEmailAddress}");
+
+                    if (mailItem.Subject.Contains("email") && mailItem.SenderEmailAddress == "arafatomer66@gmail.com")
+                    {
+                        Log($"Matched email with subject: {mailItem.Subject}");
+
+                        if (mailItem.Attachments.Count > 0)
+                        {
+                            Log($"Email has {mailItem.Attachments.Count} attachments.");
+
+                            for (int i = 1; i <= mailItem.Attachments.Count; i++)
+                            {
+                                Attachment attachment = mailItem.Attachments[i];
+                                string filePath = Path.Combine(@"\\YourNetworkPath", attachment.FileName);
+                                attachment.SaveAsFile(filePath);
+                                Log($"Attachment saved to {filePath}");
+
+                                if (i >= 2)
+                                {
+                                    Log("Reached limit of 2 attachments.");
+                                    break;
+                                }
+                            }
+                        }
+                        else
+                        {
+                            Log("Email has no attachments.");
+                        }
+                    }
+                    else
+                    {
+                        Log("Email does not match subject or sender.");
+                    }
+                }
+                else
+                {
+                    Log("Item is not an email.");
                 }
             }
+
+            Log("Finished processing emails.");
         }
+        catch (System.Exception ex)
+        {
+            Log($"An error occurred while reading emails: {ex.Message}");
+        }
+    }
+
+    static void Log(string message)
+    {
+        string logFilePath = "log.txt";
+        using (StreamWriter writer = new StreamWriter(logFilePath, true))
+        {
+            writer.WriteLine($"{DateTime.Now}: {message}");
+        }
+        Console.WriteLine($"{DateTime.Now}: {message}");
     }
 }

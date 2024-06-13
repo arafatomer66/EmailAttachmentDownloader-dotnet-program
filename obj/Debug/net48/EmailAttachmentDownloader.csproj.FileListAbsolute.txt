@@ -20,3 +20,5 @@ C:\Users\User\Desktop\EmailAttachmentDownloader\bin\Debug\net48\System.Diagnosti
 C:\Users\User\Desktop\EmailAttachmentDownloader\bin\Debug\net48\System.Memory.dll
 C:\Users\User\Desktop\EmailAttachmentDownloader\bin\Debug\net48\System.Numerics.Vectors.dll
 C:\Users\User\Desktop\EmailAttachmentDownloader\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\Desktop\EmailAttachmentDownloader\obj\Debug\net48\EmailAttachmentDownloader.sourcelink.json
+C:\Users\User\Desktop\EmailAttachmentDownloader\bin\Debug\net48\Microsoft.Office.Interop.Outlook.dll

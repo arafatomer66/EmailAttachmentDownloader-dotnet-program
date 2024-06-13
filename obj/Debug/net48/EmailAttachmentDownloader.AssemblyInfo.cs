@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmailAttachmentDownloader")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3e9d3056309085aeb865bf4971d24335e9929bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmailAttachmentDownloader")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmailAttachmentDownloader")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
