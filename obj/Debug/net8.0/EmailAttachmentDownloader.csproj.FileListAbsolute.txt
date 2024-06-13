@@ -1,0 +1,5 @@
+C:\Users\User\Desktop\EmailAttachmentDownloader\obj\Debug\net8.0\EmailAttachmentDownloader.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\EmailAttachmentDownloader\obj\Debug\net8.0\EmailAttachmentDownloader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\EmailAttachmentDownloader\obj\Debug\net8.0\EmailAttachmentDownloader.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\EmailAttachmentDownloader\obj\Debug\net8.0\EmailAttachmentDownloader.AssemblyInfo.cs
+C:\Users\User\Desktop\EmailAttachmentDownloader\obj\Debug\net8.0\EmailAttachmentDownloader.csproj.CoreCompileInputs.cache
